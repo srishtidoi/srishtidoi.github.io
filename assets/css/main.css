@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1D1E20;
+		background: #131516;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -240,6 +240,25 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+	
+	.navbar ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    text-align: right;
+	    overflow: hidden;
+	}
+
+	.navbar li {
+	    display: inline; /* Display list items horizontally */
+	}
+
+	.navbar a {
+	    padding: 14px 16px;
+	    font-size: 18px; /* Adjust the font size as needed */
+}
+
 
 /* Container */
 
@@ -2595,12 +2614,12 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/beach.png");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-color: #CF2626;
+		background-attachment: scroll,	scroll;
+		background-image: url("images/overlay.png") ;
+		background-position: center;
+		background-repeat: repeat,	no-repeat;
+		background-size: 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2650,11 +2669,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.7);
 		}
 
 	#footer .copyright {
@@ -2693,7 +2712,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			/*border-top: solid 2px #efefef;*/
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3081,7 +3100,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #131516;
 				background-image: url("images/overlay.png"), url("../../images/beach.jpeg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
